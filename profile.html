@@ -16,6 +16,12 @@
 
 	<content>
 		<h1>Profile</h1>
+        <img
+        src="profilepic.jpg"
+        id="profilepic"
+        height="300px"
+        width="300px"
+      />
 		
 		<p>Hi, my name is Edgar and currently I am enroll at Hackbright Academy, 
             where I am learning full-stack web development in preparation for a career in software engineering. 
@@ -23,10 +29,10 @@
             my journey in software development begins.</p>
 		<h2>Skills:</h2>
         <h3>Languages/Frameworks:</h3>
-        <li>Python, JavaScript, SQL, Dart, Java, C, C++</li>
-        <li>Flask, Jinja, SQLAlchemy, Fetch API, Bootstrap, Flutter</li>
+        <li>JavaScript, SQL, Dart, Java, C++</li>
+        <li>HTML, CSS, Flutter</li>
         <h3>Tools/Software:</h3>
-        <li>Command Line, Git, GitHub, PostgreSQL, Firebase</li>
+        <li>Command Line, Git, GitHub, Firebase</li>
         <li>Visual Studio Code, Eclipse, MySQL Workbench</li>
         <h2>Interests:</h2>
         <ol><b>Media: </b>CodeNewbie Podcast, Documentaries, History, Series/Movies base on real life, Comedy</ol>
@@ -34,12 +40,15 @@
         <h2>Career Goals:</h2>
         <ol>I will like to gain the skills to be able to work as a software developer. My prefer field as right now is Data Science, 
             but I am open to change directions if other fields catch my interest.</ol>
-        
+        <h2>Favorites:</h2>
+        <button class="favorites" id="color">My Favorite Color</button>
+        <button class="favorites" id="place">My Favorite Place</button>
+        <button class="favorites" id="ritual">My Favorite Ritual</button>
 
 		<h2>Contact Us</h2>
-		<form id="contact">
-		
-
+		<form class="yourFav" id="contact">
+            Your Favorite Place?
+			<input type="text">
 
 			<input type="submit">
 
@@ -47,6 +56,7 @@
 		</form>
 
 	</content>
+    
 
 
 	<script src="profile.js"></script>
